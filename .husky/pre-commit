@@ -1,1 +1,1 @@
-bun lint && tsc
+bun lint --fix && tsc && bun e2e:test

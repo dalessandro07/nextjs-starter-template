@@ -6,6 +6,7 @@ With bun.sh, simple but extremely fast.
 
 - App Router
 - Tailwind CSS
+- Shadcn/ui
 - ESLint
 - Husky
 - Playwright
