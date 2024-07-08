@@ -7,14 +7,17 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky"
+    "prepare": "husky",
+    "e2e:test": "playwright test",
+    "e2e:report": "playwright show-report"
   },
   "dependencies": {
+    "next": "15.0.0-rc.0",
     "react": "19.0.0-rc-f994737d14-20240522",
-    "react-dom": "19.0.0-rc-f994737d14-20240522",
-    "next": "15.0.0-rc.0"
+    "react-dom": "19.0.0-rc-f994737d14-20240522"
   },
   "devDependencies": {
+    "@playwright/test": "^1.45.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
