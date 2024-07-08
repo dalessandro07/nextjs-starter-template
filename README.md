@@ -8,4 +8,5 @@ With bun.sh, simple but extremely fast.
 - Src folder
 - Tailwind CSS
 - ESLint
+- Husky
 - Playwright
